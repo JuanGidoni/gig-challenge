@@ -1,21 +1,86 @@
-MIT License
+PROPRIETARY SOFTWARE LICENSE
 
-Copyright (c) 2026 Juan Ignacio
+Copyright (c) 2026 Juan Ignacio Gidoni <lab@juani.dev>
+All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+NOTICE
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This software and all associated source code, documentation, assets, and
+auxiliary files (collectively, "the Work") are the exclusive intellectual
+property of Juan Ignacio Gidoni. The Work was authored and submitted solely
+for the purpose of a technical assessment and is protected under international
+copyright law, including but not limited to the Berne Convention for the
+Protection of Literary and Artistic Works, and applicable national legislation.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GRANT OF RIGHTS
+
+The recipient of the Work is granted a limited, non-exclusive,
+non-transferable, revocable right to:
+
+(a) View and evaluate the Work strictly for the purpose of assessing the
+technical skills of the author in the context of a hiring or freelance
+engagement process.
+
+No other rights are granted, express or implied.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RESTRICTIONS
+
+Without the prior explicit written consent of Juan Ignacio Gidoni, no person,
+entity, or organization may:
+
+(a) Use, execute, or deploy the Work or any portion thereof in any product,
+service, platform, or system, whether commercial, non-commercial,
+internal, or experimental.
+
+(b) Copy, reproduce, or duplicate the Work in whole or in part, by any
+means or in any medium.
+
+(c) Modify, adapt, translate, reverse-engineer, decompile, or create
+derivative works based on the Work.
+
+(d) Distribute, publish, sublicense, sell, rent, lease, or otherwise
+transfer the Work or any rights therein to any third party.
+
+(e) Incorporate any part of the Work into any open-source or proprietary
+codebase without a separate written licensing agreement signed by the
+author.
+
+(f) Remove, alter, or obscure this copyright notice, license text, or any
+attribution referencing Juan Ignacio Gidoni as the original author.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DISCLAIMER OF WARRANTIES
+
+THE WORK IS PROVIDED SOLELY FOR EVALUATION PURPOSES, "AS IS", WITHOUT
+WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR
+NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OR INABILITY TO USE THE WORK.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENFORCEMENT
+
+Any unauthorized use, reproduction, distribution, or modification of the Work,
+in whole or in part, constitutes copyright infringement and may result in
+civil and criminal penalties to the fullest extent permitted by applicable law.
+The author reserves the right to pursue all available legal remedies.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CONTACT
+
+For licensing inquiries, permissions, or any questions regarding the use
+of this Work, contact the author directly:
+
+Juan Ignacio Gidoni
+lab@juani.dev
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

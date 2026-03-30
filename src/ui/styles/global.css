@@ -1,0 +1,182 @@
+/* ==========================================================================
+   SportX · Global Design System
+   Dark sports betting aesthetic · Accent: SportX Green
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800&family=Barlow:wght@400;500;600&display=swap');
+
+/* ── CSS Custom Properties ─────────────────────────────────────────────── */
+:root {
+  /* Brand greens */
+  --color-green-500:  #22c55e;
+  --color-green-600:  #16a34a;
+  --color-green-700:  #15803d;
+  --color-green-900:  #052e16;
+  --color-green-glow: rgba(34, 197, 94, 0.18);
+
+  /* Neutrals */
+  --color-bg:          #08090d;
+  --color-surface-0:   #0e1117;
+  --color-surface-1:   #151b24;
+  --color-surface-2:   #1e2736;
+  --color-surface-3:   #273042;
+  --color-border:      rgba(255, 255, 255, 0.07);
+  --color-border-mid:  rgba(255, 255, 255, 0.12);
+
+  /* Text */
+  --color-text-primary:   #f1f5f9;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted:     #4b5875;
+
+  /* Status */
+  --color-danger:   #ef4444;
+  --color-warning:  #f59e0b;
+
+  /* Typography */
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-body:    'Barlow', sans-serif;
+
+  /* Spacing scale */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Transitions */
+  --transition-fast:   120ms ease;
+  --transition-normal: 200ms ease;
+}
+
+/* ── Reset ─────────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Base ───────────────────────────────────────────────────────────────── */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--color-green-500);
+  outline-offset: 2px;
+}
+
+input {
+  font-family: var(--font-body);
+}
+
+/* ── Layout ─────────────────────────────────────────────────────────────── */
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ── Topbar ──────────────────────────────────────────────────────────────── */
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-6);
+  background: var(--color-surface-0);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.topbar__logo {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-green-500);
+}
+
+.topbar__logo span {
+  color: var(--color-text-primary);
+}
+
+.topbar__tagline {
+  font-size: 11px;
+  color: var(--color-text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-left: 1px solid var(--color-border-mid);
+  padding-left: var(--space-3);
+}
+
+/* ── Main content area ───────────────────────────────────────────────────── */
+.page-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: var(--space-4);
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4);
+  width: 100%;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .page-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Breadcrumb / section header ─────────────────────────────────────────── */
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+.section-header__sport-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-green-500);
+  flex-shrink: 0;
+}
+
+.section-header__breadcrumb {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+.section-header__breadcrumb strong {
+  color: var(--color-text-primary);
+}
